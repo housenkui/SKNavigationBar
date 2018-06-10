@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0BA2B245054DA4635DC20800 /* libPods-SKNavControllerBar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B691F50C43580ACBD084FDAB /* libPods-SKNavControllerBar.a */; };
+		EF6B8FD72082FE4F002BF070 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6B8FD62082FE4F002BF070 /* FirstViewController.m */; };
+		EF6B8FDA2082FE68002BF070 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6B8FD92082FE68002BF070 /* SecondViewController.m */; };
+		EFBC7BF62075C15500A1E981 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBC7BF52075C15500A1E981 /* AppDelegate.m */; };
+		EFBC7BF92075C15500A1E981 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBC7BF82075C15500A1E981 /* ViewController.m */; };
+		EFBC7BFC2075C15500A1E981 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFBC7BFA2075C15500A1E981 /* Main.storyboard */; };
+		EFBC7BFE2075C15500A1E981 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFBC7BFD2075C15500A1E981 /* Assets.xcassets */; };
+		EFBC7C012075C15500A1E981 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFBC7BFF2075C15500A1E981 /* LaunchScreen.storyboard */; };
+		EFBC7C042075C15500A1E981 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBC7C032075C15500A1E981 /* main.m */; };
+		EFBC7C132075C1A500A1E981 /* SKNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBC7C0B2075C1A500A1E981 /* SKNavigationBar.m */; };
+		EFBC7C452075C3DB00A1E981 /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBC7C432075C3DB00A1E981 /* BaseNavigationController.m */; };
+		EFBC7C492075C3EF00A1E981 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBC7C472075C3EF00A1E981 /* BaseViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		84453C36E66C21F1F37A85E6 /* Pods-SKNavControllerBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SKNavControllerBar.release.xcconfig"; path = "Pods/Target Support Files/Pods-SKNavControllerBar/Pods-SKNavControllerBar.release.xcconfig"; sourceTree = "<group>"; };
+		8A976BEBF1977ECC5B839FAB /* Pods-SKNavControllerBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SKNavControllerBar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SKNavControllerBar/Pods-SKNavControllerBar.debug.xcconfig"; sourceTree = "<group>"; };
+		B691F50C43580ACBD084FDAB /* libPods-SKNavControllerBar.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SKNavControllerBar.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF6B8FD52082FE4F002BF070 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		EF6B8FD62082FE4F002BF070 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		EF6B8FD82082FE68002BF070 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		EF6B8FD92082FE68002BF070 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		EFBC7BF12075C15500A1E981 /* SKNavControllerBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SKNavControllerBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFBC7BF42075C15500A1E981 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EFBC7BF52075C15500A1E981 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EFBC7BF72075C15500A1E981 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EFBC7BF82075C15500A1E981 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EFBC7BFB2075C15500A1E981 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EFBC7BFD2075C15500A1E981 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EFBC7C002075C15500A1E981 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EFBC7C022075C15500A1E981 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFBC7C032075C15500A1E981 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EFBC7C0B2075C1A500A1E981 /* SKNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKNavigationBar.m; sourceTree = "<group>"; };
+		EFBC7C102075C1A500A1E981 /* SKNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKNavigationBar.h; sourceTree = "<group>"; };
+		EFBC7C182075C20D00A1E981 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		EFBC7C432075C3DB00A1E981 /* BaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
+		EFBC7C442075C3DB00A1E981 /* BaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
+		EFBC7C472075C3EF00A1E981 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		EFBC7C482075C3EF00A1E981 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFBC7BEE2075C15500A1E981 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BA2B245054DA4635DC20800 /* libPods-SKNavControllerBar.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18358AFA321E162B6CF480E3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B691F50C43580ACBD084FDAB /* libPods-SKNavControllerBar.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7B8EADFF3A8BC5A316F3513C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8A976BEBF1977ECC5B839FAB /* Pods-SKNavControllerBar.debug.xcconfig */,
+				84453C36E66C21F1F37A85E6 /* Pods-SKNavControllerBar.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EFBC7BE82075C15500A1E981 = {
+			isa = PBXGroup;
+			children = (
+				EFBC7BF32075C15500A1E981 /* SKNavControllerBar */,
+				EFBC7BF22075C15500A1E981 /* Products */,
+				7B8EADFF3A8BC5A316F3513C /* Pods */,
+				18358AFA321E162B6CF480E3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EFBC7BF22075C15500A1E981 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFBC7BF12075C15500A1E981 /* SKNavControllerBar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFBC7BF32075C15500A1E981 /* SKNavControllerBar */ = {
+			isa = PBXGroup;
+			children = (
+				EFBC7C462075C3EF00A1E981 /* BaseViewController */,
+				EFBC7C422075C3DB00A1E981 /* BaseNavigationVC */,
+				EFBC7C172075C1E200A1E981 /* Config */,
+				EFBC7C0A2075C1A500A1E981 /* SKNavigationBar */,
+				EFBC7BF42075C15500A1E981 /* AppDelegate.h */,
+				EFBC7BF52075C15500A1E981 /* AppDelegate.m */,
+				EFBC7BF72075C15500A1E981 /* ViewController.h */,
+				EFBC7BF82075C15500A1E981 /* ViewController.m */,
+				EF6B8FD52082FE4F002BF070 /* FirstViewController.h */,
+				EF6B8FD62082FE4F002BF070 /* FirstViewController.m */,
+				EF6B8FD82082FE68002BF070 /* SecondViewController.h */,
+				EF6B8FD92082FE68002BF070 /* SecondViewController.m */,
+				EFBC7BFA2075C15500A1E981 /* Main.storyboard */,
+				EFBC7BFD2075C15500A1E981 /* Assets.xcassets */,
+				EFBC7BFF2075C15500A1E981 /* LaunchScreen.storyboard */,
+				EFBC7C022075C15500A1E981 /* Info.plist */,
+				EFBC7C032075C15500A1E981 /* main.m */,
+			);
+			path = SKNavControllerBar;
+			sourceTree = "<group>";
+		};
+		EFBC7C0A2075C1A500A1E981 /* SKNavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				EFBC7C102075C1A500A1E981 /* SKNavigationBar.h */,
+				EFBC7C0B2075C1A500A1E981 /* SKNavigationBar.m */,
+			);
+			path = SKNavigationBar;
+			sourceTree = "<group>";
+		};
+		EFBC7C172075C1E200A1E981 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				EFBC7C182075C20D00A1E981 /* PrefixHeader.pch */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		EFBC7C422075C3DB00A1E981 /* BaseNavigationVC */ = {
+			isa = PBXGroup;
+			children = (
+				EFBC7C432075C3DB00A1E981 /* BaseNavigationController.m */,
+				EFBC7C442075C3DB00A1E981 /* BaseNavigationController.h */,
+			);
+			path = BaseNavigationVC;
+			sourceTree = "<group>";
+		};
+		EFBC7C462075C3EF00A1E981 /* BaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				EFBC7C482075C3EF00A1E981 /* BaseViewController.h */,
+				EFBC7C472075C3EF00A1E981 /* BaseViewController.m */,
+			);
+			path = BaseViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFBC7BF02075C15500A1E981 /* SKNavControllerBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFBC7C072075C15500A1E981 /* Build configuration list for PBXNativeTarget "SKNavControllerBar" */;
+			buildPhases = (
+				607BC4E55631AEB5122E97DF /* [CP] Check Pods Manifest.lock */,
+				EFBC7BED2075C15500A1E981 /* Sources */,
+				EFBC7BEE2075C15500A1E981 /* Frameworks */,
+				EFBC7BEF2075C15500A1E981 /* Resources */,
+				21F44B4A8BDBE02900A6336E /* [CP] Embed Pods Frameworks */,
+				C37FC10FB020D90E49F6CA1E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SKNavControllerBar;
+			productName = SKNavControllerBar;
+			productReference = EFBC7BF12075C15500A1E981 /* SKNavControllerBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFBC7BE92075C15500A1E981 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = housenkui;
+				TargetAttributes = {
+					EFBC7BF02075C15500A1E981 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EFBC7BEC2075C15500A1E981 /* Build configuration list for PBXProject "SKNavControllerBar" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EFBC7BE82075C15500A1E981;
+			productRefGroup = EFBC7BF22075C15500A1E981 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFBC7BF02075C15500A1E981 /* SKNavControllerBar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFBC7BEF2075C15500A1E981 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFBC7C012075C15500A1E981 /* LaunchScreen.storyboard in Resources */,
+				EFBC7BFE2075C15500A1E981 /* Assets.xcassets in Resources */,
+				EFBC7BFC2075C15500A1E981 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		21F44B4A8BDBE02900A6336E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SKNavControllerBar/Pods-SKNavControllerBar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		607BC4E55631AEB5122E97DF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SKNavControllerBar-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C37FC10FB020D90E49F6CA1E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SKNavControllerBar/Pods-SKNavControllerBar-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFBC7BED2075C15500A1E981 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFBC7C492075C3EF00A1E981 /* BaseViewController.m in Sources */,
+				EFBC7C132075C1A500A1E981 /* SKNavigationBar.m in Sources */,
+				EFBC7BF92075C15500A1E981 /* ViewController.m in Sources */,
+				EFBC7C042075C15500A1E981 /* main.m in Sources */,
+				EFBC7BF62075C15500A1E981 /* AppDelegate.m in Sources */,
+				EF6B8FD72082FE4F002BF070 /* FirstViewController.m in Sources */,
+				EF6B8FDA2082FE68002BF070 /* SecondViewController.m in Sources */,
+				EFBC7C452075C3DB00A1E981 /* BaseNavigationController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EFBC7BFA2075C15500A1E981 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFBC7BFB2075C15500A1E981 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EFBC7BFF2075C15500A1E981 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFBC7C002075C15500A1E981 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EFBC7C052075C15500A1E981 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EFBC7C062075C15500A1E981 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFBC7C082075C15500A1E981 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A976BEBF1977ECC5B839FAB /* Pods-SKNavControllerBar.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 24DAGZR2XU;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SKNavControllerBar/Config/PrefixHeader.pch;
+				INFOPLIST_FILE = SKNavControllerBar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = housenkui.SKNavControllerBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EFBC7C092075C15500A1E981 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84453C36E66C21F1F37A85E6 /* Pods-SKNavControllerBar.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 24DAGZR2XU;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SKNavControllerBar/Config/PrefixHeader.pch;
+				INFOPLIST_FILE = SKNavControllerBar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = housenkui.SKNavControllerBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFBC7BEC2075C15500A1E981 /* Build configuration list for PBXProject "SKNavControllerBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFBC7C052075C15500A1E981 /* Debug */,
+				EFBC7C062075C15500A1E981 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFBC7C072075C15500A1E981 /* Build configuration list for PBXNativeTarget "SKNavControllerBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFBC7C082075C15500A1E981 /* Debug */,
+				EFBC7C092075C15500A1E981 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EFBC7BE92075C15500A1E981 /* Project object */;
+}
