@@ -17,7 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    [self.navBar setTitleWithString:@"首页"];
+    [self.navBar setTitleWithString:@"新闻"];
     __weak typeof (self) weakSelf = self;
 
     NavBtnParams *param = [[NavBtnParams alloc]init];
