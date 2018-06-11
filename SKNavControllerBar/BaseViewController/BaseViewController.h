@@ -8,7 +8,6 @@
 
 
 @interface BaseViewController : UIViewController
-
 @property (nonatomic,strong) SKNavigationBar *navBar;
 @property (nonatomic,strong) WKWebView *wkWebView;
 - (void)loadWithURL:(NSString *)urlString;

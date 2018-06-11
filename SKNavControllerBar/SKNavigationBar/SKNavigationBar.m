@@ -61,6 +61,7 @@ typedef NS_ENUM(NSInteger,NavBtnType) {
 
 @property (nonatomic,assign)CGFloat Margin;
 @property (nonatomic,assign)CGFloat Gap;
+@property (nonatomic,copy) NSString *Test;
 
 #pragma mark--容器View
 @property (nonatomic,strong)UIView *contentView;

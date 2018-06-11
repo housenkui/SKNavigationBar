@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0BA2B245054DA4635DC20800 /* libPods-SKNavControllerBar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B691F50C43580ACBD084FDAB /* libPods-SKNavControllerBar.a */; };
+		0BA2B245054DA4635DC20800 /* libPods-SKNavControllerBar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B691F50C43580ACBD084FDAB /* libPods-SKNavControllerBar.a */; settings = {ATTRIBUTES = (Required, ); }; };
 		EF6B8FD72082FE4F002BF070 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6B8FD62082FE4F002BF070 /* FirstViewController.m */; };
 		EF6B8FDA2082FE68002BF070 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6B8FD92082FE68002BF070 /* SecondViewController.m */; };
 		EFBC7BF62075C15500A1E981 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBC7BF52075C15500A1E981 /* AppDelegate.m */; };
