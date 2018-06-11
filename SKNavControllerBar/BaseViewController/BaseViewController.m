@@ -46,18 +46,6 @@
         make.height.mas_equalTo(Height_NavBar);
     }];
     
-//    [self.view addSubview:self.wkWebView];
-//    
-//    [self.wkWebView mas_makeConstraints:^(MASConstraintMaker *make) {
-//        make.left.right.width.equalTo(self.view);
-//        make.top.equalTo(self.view).offset(Height_NavBar);
-//        make.bottom.equalTo(self.view).offset(-Height_TabBar_SafeArea);
-//    }];
-    
-    
-//    UIImageView *imageView = [[UIImageView alloc]initWithImage:[UIImage imageNamed:@"navigation_head"]];
-//    [self.navBar setBackgroundView:imageView];
-    
 }
 
 @end
