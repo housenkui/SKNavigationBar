@@ -23,6 +23,7 @@
     self.view.backgroundColor = [UIColor greenColor];
     // Do any additional setup after loading the view, typically from a nib.
     [self testButton];
+    NSLog(@"");
 }
 - (void)testButton {
     UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];

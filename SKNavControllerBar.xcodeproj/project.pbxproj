@@ -19,6 +19,8 @@
 		EFBC7C132075C1A500A1E981 /* SKNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBC7C0B2075C1A500A1E981 /* SKNavigationBar.m */; };
 		EFBC7C452075C3DB00A1E981 /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBC7C432075C3DB00A1E981 /* BaseNavigationController.m */; };
 		EFBC7C492075C3EF00A1E981 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBC7C472075C3EF00A1E981 /* BaseViewController.m */; };
+		EFC462E120D4A48A008CF718 /* BaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC462E020D4A48A008CF718 /* BaseTabBarController.m */; };
+		EFC462E420D51CF0008CF718 /* UITabBarItem+SpringEffect.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC462E320D51CF0008CF718 /* UITabBarItem+SpringEffect.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +48,10 @@
 		EFBC7C442075C3DB00A1E981 /* BaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
 		EFBC7C472075C3EF00A1E981 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 		EFBC7C482075C3EF00A1E981 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		EFC462DF20D4A48A008CF718 /* BaseTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseTabBarController.h; sourceTree = "<group>"; };
+		EFC462E020D4A48A008CF718 /* BaseTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseTabBarController.m; sourceTree = "<group>"; };
+		EFC462E220D51CF0008CF718 /* UITabBarItem+SpringEffect.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITabBarItem+SpringEffect.h"; sourceTree = "<group>"; };
+		EFC462E320D51CF0008CF718 /* UITabBarItem+SpringEffect.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITabBarItem+SpringEffect.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +104,7 @@
 		EFBC7BF32075C15500A1E981 /* SKNavControllerBar */ = {
 			isa = PBXGroup;
 			children = (
+				EFC462DE20D4A41B008CF718 /* BaseTabBarController */,
 				EFBC7C462075C3EF00A1E981 /* BaseViewController */,
 				EFBC7C422075C3DB00A1E981 /* BaseNavigationVC */,
 				EFBC7C172075C1E200A1E981 /* Config */,
@@ -152,6 +159,17 @@
 				EFBC7C472075C3EF00A1E981 /* BaseViewController.m */,
 			);
 			path = BaseViewController;
+			sourceTree = "<group>";
+		};
+		EFC462DE20D4A41B008CF718 /* BaseTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				EFC462DF20D4A48A008CF718 /* BaseTabBarController.h */,
+				EFC462E020D4A48A008CF718 /* BaseTabBarController.m */,
+				EFC462E220D51CF0008CF718 /* UITabBarItem+SpringEffect.h */,
+				EFC462E320D51CF0008CF718 /* UITabBarItem+SpringEffect.m */,
+			);
+			path = BaseTabBarController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -281,8 +299,10 @@
 			files = (
 				EFBC7C492075C3EF00A1E981 /* BaseViewController.m in Sources */,
 				EFBC7C132075C1A500A1E981 /* SKNavigationBar.m in Sources */,
+				EFC462E420D51CF0008CF718 /* UITabBarItem+SpringEffect.m in Sources */,
 				EFBC7BF92075C15500A1E981 /* ViewController.m in Sources */,
 				EFBC7C042075C15500A1E981 /* main.m in Sources */,
+				EFC462E120D4A48A008CF718 /* BaseTabBarController.m in Sources */,
 				EFBC7BF62075C15500A1E981 /* AppDelegate.m in Sources */,
 				EF6B8FD72082FE4F002BF070 /* FirstViewController.m in Sources */,
 				EF6B8FDA2082FE68002BF070 /* SecondViewController.m in Sources */,

@@ -5,6 +5,16 @@
 //  Created by 侯森魁 on 2017/9/11.
 //  Copyright © 2017年 侯森魁. All rights reserved.
 //
+
+/**
+ 重写NSLog,Debug模式下打印日志和当前行数
+ 
+ */
+#if DEBUG
+#define NSLog(FORMAT, ...) fprintf(stderr,"\nfunction:%s line:%d content:%s\n", __FUNCTION__, __LINE__, [[NSString stringWithFormat:FORMAT, ##__VA_ARGS__] UTF8String]);
+#else
+#define NSLog(FORMAT, ...) nil
+#endif
 #define IS_IPHONE_X (SCREEN_HEIGHT == 812.0f) ? YES : NO
 #define Height_NavContentBar 44.0f
 #define Height_StatusBar ((IS_IPHONE_X )?(44.0): (20.0))

@@ -16,9 +16,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    NSLog(@"");
     [self.navBar setTitleWithString:@"新闻"];
-    __weak typeof (self) weakSelf = self;
+//    __weak typeof (self) weakSelf = self;
 
     NavBtnParams *param = [[NavBtnParams alloc]init];
     param.btnTitle = @"返回";
@@ -26,17 +26,17 @@
     param.backgroundSelectImg = [UIImage imageNamed:@"backImage"];
 
     param.onClick = ^{
-        if ([weakSelf.wkWebView canGoBack]) {
-            [weakSelf.wkWebView goBack];
+        if ([self.wkWebView canGoBack]) {
+            [self.wkWebView goBack];
         } else {
-            [weakSelf.navigationController popViewControllerAnimated:YES];
+            [self.navigationController popViewControllerAnimated:YES];
         }
     };
 
     NavBtnParams *param0 = [[NavBtnParams alloc]init];
     param0.btnTitle = @"关闭";
     param0.onClick = ^{
-        [weakSelf.navigationController popViewControllerAnimated:YES];
+        [self.navigationController popViewControllerAnimated:YES];
     };
 
     //self 持有 self.navBar,而self.navBar持有 临时变量param，而临时变量param又持有self,这就才造成了循环持有指针,所有不用__weak，不行！！！

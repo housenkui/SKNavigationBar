@@ -9,7 +9,9 @@
 #import "AppDelegate.h"
 
 @interface AppDelegate ()
+{
 
+}
 @end
 
 @implementation AppDelegate
@@ -17,14 +19,17 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    
     [self qhLife_setupWindow];
     return YES;
 }
 
 - (void)qhLife_setupWindow {
-    
+
     self.window = [[UIWindow alloc]initWithFrame:[[UIScreen mainScreen] bounds]];
-    ViewController *vc = [[ViewController alloc]init];
+    
+    BaseTabBarController *vc = [[BaseTabBarController alloc]init];
     
     BaseNavigationController *navi = [[BaseNavigationController alloc]initWithRootViewController:vc];
     self.window.rootViewController = navi;

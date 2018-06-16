@@ -16,7 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    NSLog(@"");
     [self.navBar setTitleWithString:@"新闻"];
     
     NavBtnParams *param = [[NavBtnParams alloc]init];
