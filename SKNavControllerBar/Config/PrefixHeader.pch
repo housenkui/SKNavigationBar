@@ -14,6 +14,8 @@
 #import <WebKit/WebKit.h>
 #import <Masonry.h>
 
+#import "NSObject+YYAdd.h"
+
 #import "SKNavigationBar.h"
 #import "BaseViewController.h"
 #import "BaseNavigationController.h"

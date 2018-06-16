@@ -10,6 +10,8 @@
 		0BA2B245054DA4635DC20800 /* libPods-SKNavControllerBar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B691F50C43580ACBD084FDAB /* libPods-SKNavControllerBar.a */; settings = {ATTRIBUTES = (Required, ); }; };
 		EF6B8FD72082FE4F002BF070 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6B8FD62082FE4F002BF070 /* FirstViewController.m */; };
 		EF6B8FDA2082FE68002BF070 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6B8FD92082FE68002BF070 /* SecondViewController.m */; };
+		EFB13C2320D529420003D627 /* UIViewController+SKViewControllerLeaksProfiler.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB13C2220D529420003D627 /* UIViewController+SKViewControllerLeaksProfiler.m */; };
+		EFB13C2620D52E750003D627 /* NSObject+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB13C2520D52E750003D627 /* NSObject+YYAdd.m */; };
 		EFBC7BF62075C15500A1E981 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBC7BF52075C15500A1E981 /* AppDelegate.m */; };
 		EFBC7BF92075C15500A1E981 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBC7BF82075C15500A1E981 /* ViewController.m */; };
 		EFBC7BFC2075C15500A1E981 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFBC7BFA2075C15500A1E981 /* Main.storyboard */; };
@@ -31,6 +33,11 @@
 		EF6B8FD62082FE4F002BF070 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		EF6B8FD82082FE68002BF070 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		EF6B8FD92082FE68002BF070 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		EFB13C2120D529420003D627 /* UIViewController+SKViewControllerLeaksProfiler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+SKViewControllerLeaksProfiler.h"; sourceTree = "<group>"; };
+		EFB13C2220D529420003D627 /* UIViewController+SKViewControllerLeaksProfiler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+SKViewControllerLeaksProfiler.m"; sourceTree = "<group>"; };
+		EFB13C2420D52E750003D627 /* NSObject+YYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+YYAdd.h"; sourceTree = "<group>"; };
+		EFB13C2520D52E750003D627 /* NSObject+YYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+YYAdd.m"; sourceTree = "<group>"; };
+		EFB13C2720D52E800003D627 /* YYKitMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYKitMacro.h; sourceTree = "<group>"; };
 		EFBC7BF12075C15500A1E981 /* SKNavControllerBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SKNavControllerBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFBC7BF42075C15500A1E981 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EFBC7BF52075C15500A1E981 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -155,8 +162,13 @@
 		EFBC7C462075C3EF00A1E981 /* BaseViewController */ = {
 			isa = PBXGroup;
 			children = (
+				EFB13C2720D52E800003D627 /* YYKitMacro.h */,
+				EFB13C2420D52E750003D627 /* NSObject+YYAdd.h */,
+				EFB13C2520D52E750003D627 /* NSObject+YYAdd.m */,
 				EFBC7C482075C3EF00A1E981 /* BaseViewController.h */,
 				EFBC7C472075C3EF00A1E981 /* BaseViewController.m */,
+				EFB13C2120D529420003D627 /* UIViewController+SKViewControllerLeaksProfiler.h */,
+				EFB13C2220D529420003D627 /* UIViewController+SKViewControllerLeaksProfiler.m */,
 			);
 			path = BaseViewController;
 			sourceTree = "<group>";
@@ -298,6 +310,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EFBC7C492075C3EF00A1E981 /* BaseViewController.m in Sources */,
+				EFB13C2620D52E750003D627 /* NSObject+YYAdd.m in Sources */,
 				EFBC7C132075C1A500A1E981 /* SKNavigationBar.m in Sources */,
 				EFC462E420D51CF0008CF718 /* UITabBarItem+SpringEffect.m in Sources */,
 				EFBC7BF92075C15500A1E981 /* ViewController.m in Sources */,
@@ -307,6 +320,7 @@
 				EF6B8FD72082FE4F002BF070 /* FirstViewController.m in Sources */,
 				EF6B8FDA2082FE68002BF070 /* SecondViewController.m in Sources */,
 				EFBC7C452075C3DB00A1E981 /* BaseNavigationController.m in Sources */,
+				EFB13C2320D529420003D627 /* UIViewController+SKViewControllerLeaksProfiler.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

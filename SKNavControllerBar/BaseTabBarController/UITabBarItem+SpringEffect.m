@@ -10,10 +10,14 @@
 #define IOS_VERSION ([[[UIDevice currentDevice]systemVersion]doubleValue])
 @implementation UITabBarItem (SpringEffect)
 - (UIControl *)SK_barButton{
-    return [self valueForKey:@"view"];
+    return [self valueForKey:@"view"];//私有API
 }
 - (UIImageView *)SK_TabBarImageView {
+    NSLog(@"所有属性 = %@",[UITabBarItem getAllProperties:self]);
+    [UITabBarItem LogAllMethodsFromClass:self];
+
     UIControl *barButton = [self SK_barButton];
+    
     if (!barButton) {
         return nil;
     }

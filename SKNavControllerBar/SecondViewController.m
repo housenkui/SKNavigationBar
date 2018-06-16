@@ -18,7 +18,8 @@
     [super viewDidLoad];
     NSLog(@"");
     [self.navBar setTitleWithString:@"新闻"];
-    
+    __weak typeof (self) weakSelf = self;
+
     NavBtnParams *param = [[NavBtnParams alloc]init];
     param.btnTitle = @"返回";
     param.backgroundImg = [UIImage imageNamed:@"backImage"];
@@ -26,10 +27,17 @@
     
     param.onClick = ^{
         
-        [self.navigationController popViewControllerAnimated:YES];
+        [weakSelf.navigationController popViewControllerAnimated:YES];
     };
     
     [self.navBar showLeftButtons:@[param]];
 }
-
+- (void)viewDidDisappear:(BOOL)animated{
+    [super viewDidDisappear:animated];
+    
+}
+//- (void)dealloc
+//{
+//    NSLog(@"实例已经销毁");
+//}
 @end

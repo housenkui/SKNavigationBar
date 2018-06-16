@@ -38,7 +38,7 @@
     param0.onClick = ^{
         [self.navigationController popViewControllerAnimated:YES];
     };
-
+    
     //self 持有 self.navBar,而self.navBar持有 临时变量param，而临时变量param又持有self,这就才造成了循环持有指针,所有不用__weak，不行！！！
     [self.navBar showLeftButtons:@[param,param0]];
 

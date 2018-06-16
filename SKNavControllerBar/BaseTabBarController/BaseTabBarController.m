@@ -52,6 +52,9 @@
     
     // Do any additional setup after loading the view.
 }
+- (void)viewDidDisappear:(BOOL)animated{
+    [super viewDidDisappear:animated];
+}
 #pragma mark ================递归回调===============
 
 - (void)recursion{
@@ -67,7 +70,7 @@
 }
 - (void)tabBar:(UITabBar *)tabBar didSelectItem:(UITabBarItem *)item;{
     
-    NSLog(@"%s",__FUNCTION__);
+//    NSLog(@"%s",__FUNCTION__);
 
 } // called when a new view is selected by the user (but not programatically)
 
@@ -93,7 +96,7 @@
 } // called after customize sheet is hidden. items is new item list
 
 - (void)tabBarController:(UITabBarController *)tabBarController didSelectViewController:(UIViewController *)viewController{
-        NSLog(@"视图显示后调用");
+//        NSLog(@"视图显示后调用");
     UIImageView *tabBarItemImageView = viewController.tabBarItem.SK_TabBarImageView;
     
     tabBarItemImageView.transform = CGAffineTransformMakeScale(0.6,0.6);
@@ -108,7 +111,7 @@
 - (BOOL)tabBarController:(UITabBarController *)tabBarController shouldSelectViewController:(UIViewController *)viewController
 {
     
-    NSLog(@"被选中的控制器将要显示的按钮");
+//    NSLog(@"被选中的控制器将要显示的按钮");
     //return NO;不能显示选中的控制器
     return YES;
     
