@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface UITabBarItem (SpringEffect)
-- (UIImageView *)SK_TabImageView;
+- (UIImageView *)SK_TabBarImageView;
 @end

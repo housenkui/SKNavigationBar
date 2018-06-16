@@ -94,63 +94,13 @@
 
 - (void)tabBarController:(UITabBarController *)tabBarController didSelectViewController:(UIViewController *)viewController{
         NSLog(@"视图显示后调用");
-
-//    NSUInteger  index = [tabBarController.viewControllers indexOfObject:viewController];
-//    
-//    NSLog(@"index = %lu",index);
-//
-//    NSLog(@"%s",__FUNCTION__);
-
-//    NSLog(@"%@___%@",NSStringFromClass([tabBarController class]),NSStringFromClass([viewController class]));
-//    for (id obj in tabBarController.tabBar.subviews) {
-//        NSLog(@"obj = %@",obj);
-//    }
-    //https://blog.csdn.net/mingerw/article/details/51207158
-//    NSMutableArray *views = [tabBarController.tabBar.subviews mutableCopy];
-//    for (UIView *view in views) {
-//        if(![view isKindOfClass:NSClassFromString(@"UITabBarButton")]){
-//            [views removeObject:view];
-//            break;
-//        }
-//    }
-//    [views enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
-//
-////        NSLog(@"%lu",idx);
-//        if(![obj isKindOfClass:NSClassFromString(@"UITabBarButton")]){
-//            *stop = YES;
-//            [views removeObject:obj];
-//
-//        }
-//    }];
+    UIImageView *tabBarItemImageView = viewController.tabBarItem.SK_TabBarImageView;
     
-//    NSLog(@"views = %@",views);
-    
-    
-//    UIView *tabBarItemView = views[index];
-////        NSLog(@"%@",tabBarButton);
-//        for (UIView *view  in tabBarItemView.subviews) {
-////            NSLog(@"%@",view);
-//            if ([view isKindOfClass:NSClassFromString(@"UITabBarSwappableImageView")]) {
-//                    view.transform = CGAffineTransformMakeScale(0.6,0.6);
-//                    // 弹簧动画，参数分别为：时长，延时，弹性（越小弹性越大），初始速度
-//                    [UIView animateWithDuration: 0.7 delay:0 usingSpringWithDamping:0.3 initialSpringVelocity:0.3 options:0 animations:^{
-//                        // 放大
-//                        view.transform = CGAffineTransformMakeScale(1,1);
-//                    } completion:nil];
-//            }
-//
-////        if ([tabBarButton isKindOfClass:NSClassFromString(@"UITabBarButton")]) { // 之所以这么写是因为UITabBarButton是苹果私有API
-////            NSLog(@"%@",tabBarButton.superclass);
-////        }
-//    }
-    
- 
-    
-    viewController.tabBarItem.SK_TabImageView.transform = CGAffineTransformMakeScale(0.6,0.6);
+    tabBarItemImageView.transform = CGAffineTransformMakeScale(0.6,0.6);
     // 弹簧动画，参数分别为：时长，延时，弹性（越小弹性越大），初始速度
     [UIView animateWithDuration: 0.7 delay:0 usingSpringWithDamping:0.3 initialSpringVelocity:0.3 options:0 animations:^{
         // 放大
-        viewController.tabBarItem.SK_TabImageView.transform = CGAffineTransformMakeScale(1,1);
+        tabBarItemImageView.transform = CGAffineTransformMakeScale(1,1);
     } completion:nil];
 }
 

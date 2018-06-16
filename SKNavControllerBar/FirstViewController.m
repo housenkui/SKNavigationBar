@@ -59,8 +59,8 @@
         make.top.equalTo(self.view).offset(Height_NavBar);
         make.bottom.equalTo(self.view).offset(-Height_TabBar_SafeArea);
     }];
-    NSString *string = [NSString stringWithFormat:@"https:www.baidu.com/#/?kyd_token=%d",arc4random()%10000];
-    [self loadWithURL:string];
+//    NSString *string = [NSString stringWithFormat:@"https:www.baidu.com/#/?kyd_token=%d",arc4random()%10000];
+//    [self loadWithURL:string];
 
 
     // Do any additional setup after loading the view.

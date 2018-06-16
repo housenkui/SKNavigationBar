@@ -7,22 +7,23 @@
 //
 
 #import "UITabBarItem+SpringEffect.h"
-
+#define IOS_VERSION ([[[UIDevice currentDevice]systemVersion]doubleValue])
 @implementation UITabBarItem (SpringEffect)
 - (UIControl *)SK_barButton{
     return [self valueForKey:@"view"];
 }
-- (UIImageView *)SK_TabImageView {
+- (UIImageView *)SK_TabBarImageView {
     UIControl *barButton = [self SK_barButton];
     if (!barButton) {
         return nil;
     }
     for (UIView *subView in barButton.subviews) {
-        if ([NSStringFromClass([subView class]) isEqualToString:@"UITabBarSwappableImageView"]) {
+        
+        if ([subView isKindOfClass:NSClassFromString(@"UITabBarSwappableImageView")]) {
             return (UIImageView *)subView;
         }
-        if([[[UIDevice currentDevice]systemVersion]doubleValue] <10){
-            if ([subView isKindOfClass:[UIImageView class]] &&![NSStringFromClass([subView class]) isEqualToString:@"UITabBarSelectionIndicatorView"] ) {
+        if(IOS_VERSION < 10){
+            if ([subView isKindOfClass:[UIImageView class]] &&![subView isKindOfClass:NSClassFromString(@"UITabBarSelectionIndicatorView")]) {
                 return (UIImageView *)subView;
             }
         }
