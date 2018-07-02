@@ -10,6 +10,7 @@
 		0BA2B245054DA4635DC20800 /* libPods-SKNavControllerBar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B691F50C43580ACBD084FDAB /* libPods-SKNavControllerBar.a */; settings = {ATTRIBUTES = (Required, ); }; };
 		EF6B8FD72082FE4F002BF070 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6B8FD62082FE4F002BF070 /* FirstViewController.m */; };
 		EF6B8FDA2082FE68002BF070 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6B8FD92082FE68002BF070 /* SecondViewController.m */; };
+		EF87F11520EA7231004FC818 /* SKNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = EF87F11320EA7231004FC818 /* SKNavigationBar.m */; };
 		EFB13C2320D529420003D627 /* UIViewController+SKViewControllerLeaksProfiler.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB13C2220D529420003D627 /* UIViewController+SKViewControllerLeaksProfiler.m */; };
 		EFB13C2620D52E750003D627 /* NSObject+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB13C2520D52E750003D627 /* NSObject+YYAdd.m */; };
 		EFBC7BF62075C15500A1E981 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBC7BF52075C15500A1E981 /* AppDelegate.m */; };
@@ -18,7 +19,6 @@
 		EFBC7BFE2075C15500A1E981 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFBC7BFD2075C15500A1E981 /* Assets.xcassets */; };
 		EFBC7C012075C15500A1E981 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFBC7BFF2075C15500A1E981 /* LaunchScreen.storyboard */; };
 		EFBC7C042075C15500A1E981 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBC7C032075C15500A1E981 /* main.m */; };
-		EFBC7C132075C1A500A1E981 /* SKNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBC7C0B2075C1A500A1E981 /* SKNavigationBar.m */; };
 		EFBC7C452075C3DB00A1E981 /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBC7C432075C3DB00A1E981 /* BaseNavigationController.m */; };
 		EFBC7C492075C3EF00A1E981 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBC7C472075C3EF00A1E981 /* BaseViewController.m */; };
 		EFC462E120D4A48A008CF718 /* BaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC462E020D4A48A008CF718 /* BaseTabBarController.m */; };
@@ -33,6 +33,8 @@
 		EF6B8FD62082FE4F002BF070 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		EF6B8FD82082FE68002BF070 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		EF6B8FD92082FE68002BF070 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		EF87F11320EA7231004FC818 /* SKNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKNavigationBar.m; sourceTree = "<group>"; };
+		EF87F11420EA7231004FC818 /* SKNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKNavigationBar.h; sourceTree = "<group>"; };
 		EFB13C2120D529420003D627 /* UIViewController+SKViewControllerLeaksProfiler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+SKViewControllerLeaksProfiler.h"; sourceTree = "<group>"; };
 		EFB13C2220D529420003D627 /* UIViewController+SKViewControllerLeaksProfiler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+SKViewControllerLeaksProfiler.m"; sourceTree = "<group>"; };
 		EFB13C2420D52E750003D627 /* NSObject+YYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+YYAdd.h"; sourceTree = "<group>"; };
@@ -48,8 +50,6 @@
 		EFBC7C002075C15500A1E981 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EFBC7C022075C15500A1E981 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EFBC7C032075C15500A1E981 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		EFBC7C0B2075C1A500A1E981 /* SKNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKNavigationBar.m; sourceTree = "<group>"; };
-		EFBC7C102075C1A500A1E981 /* SKNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKNavigationBar.h; sourceTree = "<group>"; };
 		EFBC7C182075C20D00A1E981 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		EFBC7C432075C3DB00A1E981 /* BaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
 		EFBC7C442075C3DB00A1E981 /* BaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
@@ -90,6 +90,15 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		EF87F11220EA7231004FC818 /* SKNavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				EF87F11320EA7231004FC818 /* SKNavigationBar.m */,
+				EF87F11420EA7231004FC818 /* SKNavigationBar.h */,
+			);
+			path = SKNavigationBar;
+			sourceTree = "<group>";
+		};
 		EFBC7BE82075C15500A1E981 = {
 			isa = PBXGroup;
 			children = (
@@ -115,7 +124,7 @@
 				EFBC7C462075C3EF00A1E981 /* BaseViewController */,
 				EFBC7C422075C3DB00A1E981 /* BaseNavigationVC */,
 				EFBC7C172075C1E200A1E981 /* Config */,
-				EFBC7C0A2075C1A500A1E981 /* SKNavigationBar */,
+				EF87F11220EA7231004FC818 /* SKNavigationBar */,
 				EFBC7BF42075C15500A1E981 /* AppDelegate.h */,
 				EFBC7BF52075C15500A1E981 /* AppDelegate.m */,
 				EFBC7BF72075C15500A1E981 /* ViewController.h */,
@@ -131,15 +140,6 @@
 				EFBC7C032075C15500A1E981 /* main.m */,
 			);
 			path = SKNavControllerBar;
-			sourceTree = "<group>";
-		};
-		EFBC7C0A2075C1A500A1E981 /* SKNavigationBar */ = {
-			isa = PBXGroup;
-			children = (
-				EFBC7C102075C1A500A1E981 /* SKNavigationBar.h */,
-				EFBC7C0B2075C1A500A1E981 /* SKNavigationBar.m */,
-			);
-			path = SKNavigationBar;
 			sourceTree = "<group>";
 		};
 		EFBC7C172075C1E200A1E981 /* Config */ = {
@@ -311,7 +311,6 @@
 			files = (
 				EFBC7C492075C3EF00A1E981 /* BaseViewController.m in Sources */,
 				EFB13C2620D52E750003D627 /* NSObject+YYAdd.m in Sources */,
-				EFBC7C132075C1A500A1E981 /* SKNavigationBar.m in Sources */,
 				EFC462E420D51CF0008CF718 /* UITabBarItem+SpringEffect.m in Sources */,
 				EFBC7BF92075C15500A1E981 /* ViewController.m in Sources */,
 				EFBC7C042075C15500A1E981 /* main.m in Sources */,
@@ -321,6 +320,7 @@
 				EF6B8FDA2082FE68002BF070 /* SecondViewController.m in Sources */,
 				EFBC7C452075C3DB00A1E981 /* BaseNavigationController.m in Sources */,
 				EFB13C2320D529420003D627 /* UIViewController+SKViewControllerLeaksProfiler.m in Sources */,
+				EF87F11520EA7231004FC818 /* SKNavigationBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
